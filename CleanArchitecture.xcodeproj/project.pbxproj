@@ -12,6 +12,7 @@
 		9CE89CC32CDB990F009EC18E /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 9CE89CC22CDB990F009EC18E /* RxCocoa */; };
 		9CE89CC52CDB990F009EC18E /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9CE89CC42CDB990F009EC18E /* RxSwift */; };
 		9CE89CC82CDB996C009EC18E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 9CE89CC72CDB996C009EC18E /* Kingfisher */; };
+		9CE89D052CDCEDD3009EC18E /* CleanArchitecture.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9CE89D032CDCEDD3009EC18E /* CleanArchitecture.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		9CE89C4A2CD9FFD6009EC18E /* CleanArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanArchitecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CE89C602CD9FFD7009EC18E /* CleanArchitectureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanArchitectureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CE89C6A2CD9FFD7009EC18E /* CleanArchitectureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanArchitectureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CE89D042CDCEDD3009EC18E /* CleanArchitecture.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CleanArchitecture.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -101,6 +103,7 @@
 		9CE89C412CD9FFD6009EC18E = {
 			isa = PBXGroup;
 			children = (
+				9CE89D032CDCEDD3009EC18E /* CleanArchitecture.xcdatamodeld */,
 				9CE89C4C2CD9FFD6009EC18E /* CleanArchitecture */,
 				9CE89C632CD9FFD7009EC18E /* CleanArchitectureTests */,
 				9CE89C6D2CD9FFD7009EC18E /* CleanArchitectureUITests */,
@@ -273,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CE89D052CDCEDD3009EC18E /* CleanArchitecture.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -656,6 +660,19 @@
 			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		9CE89D032CDCEDD3009EC18E /* CleanArchitecture.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9CE89D042CDCEDD3009EC18E /* CleanArchitecture.xcdatamodel */,
+			);
+			currentVersion = 9CE89D042CDCEDD3009EC18E /* CleanArchitecture.xcdatamodel */;
+			path = CleanArchitecture.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9CE89C422CD9FFD6009EC18E /* Project object */;
 }
