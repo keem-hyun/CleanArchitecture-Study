@@ -47,6 +47,23 @@
 			);
 			target = 9CE89C492CD9FFD6009EC18E /* CleanArchitecture */;
 		};
+		9CE89D1B2CE098F5009EC18E /* Exceptions for "CleanArchitectureTests" folder in "CleanArchitecture" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				CleanArchitectureTests.swift,
+				UserUsecaseTests.swift,
+			);
+			target = 9CE89C492CD9FFD6009EC18E /* CleanArchitecture */;
+		};
+		9CE89D1C2CE098F5009EC18E /* Exceptions for "CleanArchitectureTests" folder in "CleanArchitectureTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				CleanArchitectureTests.swift,
+				Mock/MockUserRepository.swift,
+				UserUsecaseTests.swift,
+			);
+			target = 9CE89C5F2CD9FFD7009EC18E /* CleanArchitectureTests */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -58,14 +75,18 @@
 			path = CleanArchitecture;
 			sourceTree = "<group>";
 		};
-		9CE89C632CD9FFD7009EC18E /* CleanArchitectureTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CleanArchitectureTests;
-			sourceTree = "<group>";
-		};
 		9CE89C6D2CD9FFD7009EC18E /* CleanArchitectureUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = CleanArchitectureUITests;
+			sourceTree = "<group>";
+		};
+		9CE89D182CE098F5009EC18E /* CleanArchitectureTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				9CE89D1B2CE098F5009EC18E /* Exceptions for "CleanArchitectureTests" folder in "CleanArchitecture" target */,
+				9CE89D1C2CE098F5009EC18E /* Exceptions for "CleanArchitectureTests" folder in "CleanArchitectureTests" target */,
+			);
+			path = CleanArchitectureTests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -105,7 +126,7 @@
 			children = (
 				9CE89D032CDCEDD3009EC18E /* CleanArchitecture.xcdatamodeld */,
 				9CE89C4C2CD9FFD6009EC18E /* CleanArchitecture */,
-				9CE89C632CD9FFD7009EC18E /* CleanArchitectureTests */,
+				9CE89D182CE098F5009EC18E /* CleanArchitectureTests */,
 				9CE89C6D2CD9FFD7009EC18E /* CleanArchitectureUITests */,
 				9CE89C4B2CD9FFD6009EC18E /* Products */,
 			);
@@ -138,6 +159,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				9CE89C4C2CD9FFD6009EC18E /* CleanArchitecture */,
+				9CE89D182CE098F5009EC18E /* CleanArchitectureTests */,
 			);
 			name = CleanArchitecture;
 			packageProductDependencies = (
@@ -163,9 +185,6 @@
 			);
 			dependencies = (
 				9CE89C622CD9FFD7009EC18E /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				9CE89C632CD9FFD7009EC18E /* CleanArchitectureTests */,
 			);
 			name = CleanArchitectureTests;
 			packageProductDependencies = (
